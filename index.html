@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> theLVP's html cheatsheet </title>
+        <link href="./resources/style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header"> 
+            <h1>theLVP's html cheatsheet</h1>
+            <h2>a Codecademy project</h2>
+        </header>
+        <br>
+        <main>
+           <h3 class="partitle">Common html tags for any html document</h3> 
+           <p>Here are some common html tags that could be useful for you when drafting a html document.</p> 
+           <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Tag name</th>
+                    <th scope="col">Tag in html</th>
+                    <th scope="col">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DOCTYPE</td>
+                    <td><span class='code'>&lt;!DOCTYPE html&gt;</span></td>
+                    <td>Indicating the language of the file (html). Use it at the top of your document.</td>
+                </tr>
+                <tr>
+                    <td>html</td>
+                    <td><span class='code'> &lt;html&gt;</span></td>
+                    <td>Write all your html between this tag.</td>
+                </tr>
+                    <td>head</td>
+                    <td><span class='code'>&lt;head&gt;</span></td>
+                    <td>Heading of the page. In the head you can specify the title of the tab/website and link to your css files, fonts, etc. The text in &lt;head&gt; is not visible on the webpage for visitors.</td>
+                <tr>
+                    <td>title</td>
+                    <td><span class='code'>&lt;title&gt;</span></td>
+                    <td>The name of your website as visible in the tab of the browser.</td>
+                </tr>
+                <tr>
+                    <td>link</td>
+                    <td><span class='code'>&lt;link href='' ref='stylesheet'&gt;</span></td>
+                    <td>Watch out: no closing tag. Links your html file to your stylesheet in css.</td>
+                </tr>
+                <tr>
+                    <td>body</td>
+                    <td><span class='code'>&lt;body&gt;</span></td>
+                    <td>Insert your content here.</td>
+                </tr>   
+                <tr>
+                    <td>h1</td>
+                    <td><span class='code'>&lt;h1&gt;</span></td>
+                    <td>To specify a heading. There is &lt;h1&gt; till &lt;h6&gt;.</span></td>
+                </tr>
+                <tr>
+                    <td>p</td>
+                    <td><span class='code'>&lt;p&gt;</span></td>
+                    <td>For paragraphs.</td>
+                </tr>
+                <tr>
+                    <td>div</td>
+                    <td><span class='code'>&lt;div&gt;</span></td>
+                    <td>To divide the html in separate blocks. You can also use &lt;span&gt; if you want to divide a sentence in blocks (e.g. a few words).</td>
+                </tr>
+                <tr>
+                    <td>br</td>
+                    <td><span class='code'>&lt;br&gt;</span></td>
+                    <td>Page break (in essence: enter).</td>
+                </tr>
+                <tr>
+                    <td>em and strong</td>
+                    <td><span class='code'>&lt;em&gt; & &lt;strong&gt;</span></td>
+                    <td>To use italics or bold in your text. Alternative: use css for this.</td>
+                </tr>
+                <tr>
+                    <td>ul and ol</td>
+                    <td><span class='code'>&lt;ul&gt;& &lt;ol&gt;</span></td>
+                    <td>To make an ordered (OL) or unordered (UL) list.</td>
+                </tr>
+                <tr>
+                    <td>Comment</td>
+                    <td><span class='code'>&lt;!--comment--&gt;</span></td>
+                    <td>To add a comment in your html text that is not visible in the website text.</td>
+                </tr>   
+                <tr>
+                    <td>Image</td>
+                    <td><span class='code'>&lt;img src=''/&gt;</span></td>
+                    <td>Look out: it's a self closing tag. You can add attributes to this as well, like <span class="code">alt</span> (alternative text), <span class="code">width</span> and <span class="code">height</span>.</td>
+                </tr>   
+                <tr>
+                    <td>Video</td>
+                    <td><span class='code'>&lt;video src=''&gt;</span></td>
+                    <td>To add a video. You can add attributes to this as well, like <span class="code">controls</span> (to get play/pause/etc.), <span class="code">width</span> and <span class="code">height</span>.</td>
+                </tr>   
+                <tr>
+                    <td>Audio</td>
+                    <td><span class='code'>&lt;audio&gt; &lt;source src='' type='audio/mp3'&gt; &lt;/audio&gt;</span> </td>
+                    <td>A bit of a weird one, since you have the opening- and closing tag, and a separate one nested in it for the source. You can also add attributes such as <span class="code">autoplay</span>, <span class="code">loop</span>, <span class="code">mute</span> and <span class="code">controls</span>.</td>
+                </tr>   
+                <tr>
+                    <td>Embedding content</td>
+                    <td><span class='code'>&lt;embed src=''/&gt;</span></td>
+                    <td>Look out: it's a self closing tag. Use it to embed gifs, videos etc. Source (like URL) required.</td>
+                </tr>   
+                <tr>
+                    <td>Hyperlinks</td>
+                    <td> <span class='code'> &lt;a href='link'&gt; [text hyperlink] &lt;/a'&gt; </span></td>
+                    <td>For internal links to files in the same folder, use ./[filepath]. For external links, use the URL. You can also link to #id's.  </td>
+                </tr> 
+            </tbody>
+           </table>
+           <h3 class="partitle">Other HTML tags for any html document</h3> 
+           <p> Other tags that should be mentioned, are semantic tags like <span class="code">header</span>, <span class="code">nav</span>, <span class="code">main</span>, <span class="code">footer</span>, <span class="code">section</span> or <span class="code">article</span>, <span class="code">section</span> and <span class="code">aside</span>, and for images, <span class="code">figure</span> and <span class="code">figcaption</span>. The html tags for creating a table are also very useful. You can check out those tags by pressing F12 on your browswer - check out the code that is used for creating the table above!</p>
+           <!---<h2 #css>Common CSS attributes for any css document</h2>
+           <p>Here are some common CSS attributes that could be useful for you when drafting a css document.</p>-->  
+           <h3 class="partitle">Looking for more?</h3> 
+           <p> Thanks for checking out this cheatsheet. Want more? Well, I have a great one at home... written in pen, on paper. Not very IT-minded of me, I know. Ah well. This calls for a certain gif... </p>         
+           <embed id='gif' src="https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif"/>
+           <br>
+        </main>
+        <footer id="copy">
+            &copy;theLVP2023
+        </footer>
+    </body>
+</html>

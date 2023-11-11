@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(whitesmoke, goldenrod);
+    background-repeat: repeat;
+}
+
+main, footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    text-align: left;
+    line-height: 1.3;
+}
+
+h3 {
+    font-family: 'Roboto', 'Arial',  sans-serif;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.2;
+}
+
+/* check met Tim: hoe krijg ik het plaatje niet lame ass als het scherm groot wordt? */
+/* check met Tim: is mijn code zo 'on-vies' en github ready? */
+
+#header {
+    background-image: url("./headergandalf.png"); 
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Agbalumo', 'Franklin Gothic Medium', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 1px white;
+    word-spacing: 2px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+.header h2 {
+    color: white;
+    text-shadow: 2px 1px goldenrod;
+}
+
+.code {
+    font-family: 'Roboto Mono', monospace;
+    color: lightslategray;
+    background-color: lightgray;
+    font-size: smaller;
+    line-height: 1.2;
+}
+
+.table {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    line-height: 1.3;
+    font-size: 14px;
+    text-align: center; 
+}
+
+/* ALS IK BORDER ZOU WILLEN, MOET JE T(ABLE)D(ATA) EN T(ABLE)H(EADING) TARGETTEN EN DUS NIET THEAD, TBODY, TABLE OF T(ABLE)R(OW)! --> .table td, th {
+    border: 1px solid rgb(240, 239, 239);
+} */
+
+.table thead {
+    background: darkslateblue;
+}
+
+.table th {
+    color: white;
+    padding: 10px;
+    font-weight: bold;   
+}
+
+.table tbody {
+    background: whitesmoke;
+}
+
+.table td {
+    color: black;
+    padding: 10px;
+}
+
+#gif {
+    width: 25%;
+    height: 25%;
+}
+
+#copy {
+    font-family:  'Roboto Mono', monospace;
+    font-size: small;
+}
