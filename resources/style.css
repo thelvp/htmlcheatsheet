@@ -34,7 +34,7 @@ h3 {
 
 #header {
     background-image: url("./headergandalf.png"); 
-    background-position:top;
+    background-position:left; 
     background-repeat: no-repeat;
     background-size: cover;  
     width: 100%;
