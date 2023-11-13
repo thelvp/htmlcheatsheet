@@ -29,9 +29,6 @@ h3 {
     line-height: 1.2;
 }
 
-/* check met Tim: hoe krijg ik het plaatje niet lame ass als het scherm groot wordt? */
-/* check met Tim: is mijn code zo 'on-vies' en github ready? */
-
 #header {
     background-image: url("./headergandalf.png"); 
     background-position:left; 
@@ -71,10 +68,6 @@ h3 {
     font-size: 14px;
     text-align: center; 
 }
-
-/* ALS IK BORDER ZOU WILLEN, MOET JE T(ABLE)D(ATA) EN T(ABLE)H(EADING) TARGETTEN EN DUS NIET THEAD, TBODY, TABLE OF T(ABLE)R(OW)! --> .table td, th {
-    border: 1px solid rgb(240, 239, 239);
-} */
 
 .table thead {
     background: darkslateblue;
